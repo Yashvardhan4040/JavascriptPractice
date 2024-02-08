@@ -1,0 +1,15 @@
+class User{
+    
+    constructor(name,email){
+        this.name=name;
+        this.email=email;
+        this.data="It is confidential";
+
+    }
+    viewData(){
+        console.log("Data:",this.data);
+    }
+}
+
+let emp=new User("Yash","vardhanyash00728@gmail.com");
+emp.viewData();
