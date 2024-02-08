@@ -1,0 +1,12 @@
+let x;
+const amb={
+    tax:function(x){
+    x=x-(x/10);
+    return x;
+    }
+};
+const emp={
+    sal:100
+};
+emp.__proto__=amb;
+console.log(emp.tax(emp.sal));
